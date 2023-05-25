@@ -10,8 +10,12 @@ const Cart = (props) => {
 
   const totalAmount = `Ron${cartCont.totalAmount.toFixed(2)}`;
   const hasItems = cartCont?.items?.length > 0;
-  const cartItemRemover = (id) => {};
-  const cartItemAdd = (item) => {};
+  const cartItemRemover = (id) => {
+    cartCont.removeItem(id);
+  };
+  const cartItemAdd = (item) => {
+    cartCont.addItem(item);
+  };
 
   const cartItems = (
     <ul className={classes["cart-items"]}>
