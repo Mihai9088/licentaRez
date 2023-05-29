@@ -8,25 +8,25 @@ const DUMMY_ITEMS = [
     id: "m1",
     name: "Monitor",
     description: "Best Monitor",
-    price: 79.99,
+    price: 99.99,
   },
   {
     id: "m2",
     name: "Iphone",
     description: "Best mobile",
-    price: 4000,
+    price: 1000,
   },
   {
     id: "m3",
     name: "Laptop",
     description: "Best Laptop",
-    price: 3000,
+    price: 2000,
   },
   {
     id: "m4",
     name: "Macbook",
     description: "Best Macbook",
-    price: 4999.99,
+    price: 3000,
   },
 ];
 
