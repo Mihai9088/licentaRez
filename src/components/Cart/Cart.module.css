@@ -6,6 +6,24 @@
   overflow: scroll;
 }
 
+.cart-items::-webkit-scrollbar {
+  width: 4px; 
+}
+
+.cart-items::-webkit-scrollbar-track {
+ display: none;
+}
+
+.cart-items::-webkit-scrollbar-thumb {
+  background-color:  #513905; 
+  border-radius: 4px; 
+}
+
+.cart-items::-webkit-scrollbar-thumb:hover {
+  background-color: #745c1c; 
+  cursor: grab;
+}
+
 .total {
   display: flex;
   justify-content: space-between;
